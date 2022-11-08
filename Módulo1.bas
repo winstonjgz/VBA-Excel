@@ -1,4 +1,4 @@
-Attribute VB_Name = "Módulo1"
+Attribute VB_Name = "MÃ³dulo1"
 Sub QuitaryPonerKey()
 Attribute QuitaryPonerKey.VB_ProcData.VB_Invoke_Func = " \n14"
 '
@@ -6,10 +6,10 @@ Attribute QuitaryPonerKey.VB_ProcData.VB_Invoke_Func = " \n14"
 '
 
 '
-    ActiveSheet.Unprotect (DragonSony2010)
+    ActiveSheet.Unprotect (XXXXX)
     Cells.Select
     Selection.Locked = True
     Selection.FormulaHidden = False
-    ActiveSheet.Protect (DragonSony2010)
+    ActiveSheet.Protect (XXXXX)
     ActiveSheet.Protect DrawingObjects:=True, Contents:=True, Scenarios:=True
 End Sub
